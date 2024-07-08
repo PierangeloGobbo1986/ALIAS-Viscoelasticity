@@ -1,9 +1,0 @@
-Probe radius:, 130.0, um
-Mean indentation depth:, 60.088, um
-Sample Poisson's Ratio:, 0.5
-Contact radius:, 8.8382e-05, m
-Contact area:, 2.454037e-08, m2
-
-
-Index [#],Time [s],Frequency [Hz],Mean force [uN],Mean position [um],Amplitude force [uN],Amplitude pos [um],Stiffness [N/m],Phase shift [degree],Real stiffness [N/m],Im. Stiffness [N/m],Amplitude F [N],Amplitude Pos [m],Area Normalised Frequency [m2 s-1],Storage Modulus [Pa],Loss Modulus [Pa],Loss Tangent
-0.0,5011.42967,0.1,-1.03731,0.09901,0.45827,0.1251,3.66326,-51.62316,2.27427,-2.87179,4.5827e-07,1.2509999999999998e-07,7.811441299999996e-10,9649.46,-12184.71,-1.26273
