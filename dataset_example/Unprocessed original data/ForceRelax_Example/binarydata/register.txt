@@ -1,0 +1,523 @@
+Description :< 
+  Version := v2.4.4.5
+  Data folder := C:\Users\FemtoTools\Documents\FemtoTools\Gobbo_Group\Data\Nicoletta\Training\20231122_agarose\ForceRelax_Agarose2p
+  Model := FT-MTA03A
+  Configuration := FT-MTA03
+  Sensor Serial := FT S2000 230414 1
+  Type := Indentation
+  Phases :[ 
+    :<
+      String := All
+      Value := 0
+    :>
+    :<
+      String := Approach
+      Value := 1
+    :>
+    :<
+      String := Approach&Load
+      Value := 2
+    :>
+    :<
+      String := Loaded Hold
+      Value := 3
+    :>
+    :<
+      String := Unload
+      Value := 4
+    :>
+    :<
+      String := Unloaded Hold
+      Value := 5
+    :>
+    :<
+      String := Move Away
+      Value := 6
+    :>
+  Phases :]
+  Column :[ 
+    :<
+      Name := Index
+      Unit := [#]
+      Variable := A
+      File := A-Index.bin
+      Formula := 
+    :>
+    :<
+      Name := Phase
+      Unit := [#]
+      Variable := B
+      File := B-Phase.bin
+      Formula := 
+    :>
+    :<
+      Name := Displacement
+      Unit := [um]
+      Variable := C
+      File := C-Displacement.bin
+      Formula := 
+    :>
+    :<
+      Name := Time
+      Unit := [s]
+      Variable := D
+      File := D-Time.bin
+      Formula := 
+    :>
+    :<
+      Name := Pos X
+      Unit := [um]
+      Variable := E
+      File := E-Pos X.bin
+      Formula := 
+    :>
+    :<
+      Name := Pos Y
+      Unit := [um]
+      Variable := F
+      File := F-Pos Y.bin
+      Formula := 
+    :>
+    :<
+      Name := Pos Z
+      Unit := [um]
+      Variable := G
+      File := G-Pos Z.bin
+      Formula := 
+    :>
+    :<
+      Name := Piezo X
+      Unit := [um]
+      Variable := H
+      File := H-Piezo X.bin
+      Formula := 
+    :>
+    :<
+      Name := Piezo Y
+      Unit := [um]
+      Variable := I
+      File := I-Piezo Y.bin
+      Formula := 
+    :>
+    :<
+      Name := Piezo Z
+      Unit := [um]
+      Variable := J
+      File := J-Piezo Z.bin
+      Formula := 
+    :>
+    :<
+      Name := Force A
+      Unit := [uN]
+      Variable := K
+      File := K-Force A.bin
+      Formula := 
+    :>
+    :<
+      Name := Force B
+      Unit := [uN]
+      Variable := L
+      File := L-Force B.bin
+      Formula := 
+    :>
+    :<
+      Name := Gripper
+      Unit := [V]
+      Variable := M
+      File := M-Gripper.bin
+      Formula := 
+    :>
+    :<
+      Name := Voltage A
+      Unit := [V]
+      Variable := N
+      File := N-Voltage A.bin
+      Formula := 
+    :>
+    :<
+      Name := Voltage B
+      Unit := [V]
+      Variable := O
+      File := O-Voltage B.bin
+      Formula := 
+    :>
+    :<
+      Name := Temperature
+      Unit := [°C]
+      Variable := P
+      File := P-Temperature.bin
+      Formula := 
+    :>
+    :<
+      Name := Indent Depth
+      Unit := [um]
+      Variable := Q
+      File := Q-Indent Depth.bin
+      Formula := C-b
+    :>
+  Column :]
+Description :>
+// ================================
+2023-11-22, 12:19:48, 0 :< 
+  Type := Indentation
+  System Settings :< 
+    Max drive frequency [Hz] := 1000
+    Max speed [um/s] := 500
+    Max acceleration [um/s^2] := 0
+    SPM Threshold [%] := 40
+    Reference stiffness [N/m] := 1553.94
+    Power save mode := No
+  System Settings :>
+  Indentation :< 
+    Expert Mode := Yes
+    Array Measurement := No
+    FindContactExpert :< 
+      Direction := Pos Z-(down)
+      Channel := 0
+      Distance [um] := 25000
+      Move back [um] := 30
+      Speed [um/s] := 150
+      Min Force [uN] := -40
+      Max Force [uN] := 40
+      Filter := 0
+      Sidestep Pos A := 0
+      Sidestep Pos B := 0
+    FindContactExpert :>
+    Indentation Expert :< 
+      Direction := Piezo Z+(up)
+      Control Mode := Displacement controlled
+      Distance [um] := 25000
+      Trigger min [uN] := 0
+      Filter := 1
+      Trigger max [uN] := 0
+      Approach step [um] := 25
+      Approach speed [um/s] := 25
+      Max force [uN] := 2000
+      Max depth [um] := 50
+      End force [uN] := -500
+      Sampling rate [Hz] := 200
+      Load Rate := 25
+      Unload Rate := 25
+      Load ramp time [s] := 2
+      Unload ramp time [s] := 2
+      Loaded hold time [s] := 10
+      End hold time [s] := 0
+      Fast retraction? := Yes
+      Linear ramp portion [%] := 20
+      Zero Force? := Yes
+      Match speeds? := Yes
+      Channel := 0
+    Indentation Expert :>
+    Indentation Array :< 
+      Mode := an array in directions A&B from the sensor position
+      Direction A := Pos X+(right)
+      Number A := 10
+      Point Spacing (A) [um] := 2
+      Direction B := Pos Y+(back)
+      Number B := 10
+      Point Spacing (B) [um] := 2
+      Array Rotation [°] := 0
+    Indentation Array :>
+    Repetition :< 
+      Number A := 1
+      Number B := 1
+      Array Spacing (A) [um] := 10
+      Array Spacing (B) [um] := 10
+      Offset (A) [um] := 0
+      Offset (B) [um] := 0
+    Repetition :>
+    CSM settings :< 
+      Frequency [Hz] := 0
+      Control Mode := Depth controlled
+      Amplitude [um] := 0
+      Amplitude force [uN] := 0
+      Amplitude ratio [%] := 0
+    CSM settings :>
+    Movement :< 
+      Delay := 0.1
+      Speed := 500
+      Scan start range [um] := 10
+      DelayAfterFirstFC := 1
+      Direction C := Pos Z+(up)
+      Move Back [um] := 0.5
+      Perform Find Contact := Once (tip stays close)
+    Movement :>
+    Variation :< 
+      VaryForceDepth := No
+      VariationDirection := Pos X+(right)
+      From Force := 2000
+      To Force := 2000
+      From Depth := 50
+      To Depth := 50
+      Logarithmic := No
+      VariationConstant := Constant Ramp Time
+    Variation :>
+    Exclude Points :< 
+      Exclude Points :[ 
+        
+      Exclude Points :]
+      Repetition Index := 0
+    Exclude Points :>
+    Basic Mode :[ 
+      :<
+        Basic Mode Controls :[ 
+          :FindContactExpert_Min Force [uN], 6, 12|:FindContactExpert_Max Force [uN], 6, 102|:FindContactExpert_Move back [um], 6, 192|:FindContactExpert_Sidestep Pos A, 54, 12|:FindContactExpert_Sidestep Pos B, 54, 156|
+        Basic Mode Controls :]
+      :>
+      :<
+        Basic Mode Controls :[ 
+          :Indentation Expert_Max depth [um], 12, 12|:Indentation Expert_Load ramp time [s], 60, 12|:Indentation Expert_Unload ramp time [s], 60, 156|:Indentation Expert_Approach speed [um/s], 12, 156|:Indentation Expert_Match speeds?, 108, 12|
+        Basic Mode Controls :]
+      :>
+      :<
+        Basic Mode Controls :[ 
+          :Indentation Array_Mode, 6, 12|:Indentation Array_Direction A, 54, 12|:Indentation Array_Direction B, 54, 156|:Indentation Array_Number A, 102, 12|:Indentation Array_Number B, 102, 156|:Indentation Array_Point Spacing (A) [um], 150, 12|:Indentation Array_Point Spacing (B) [um], 150, 156|:Movement_Perform Find Contact, 198, 12|:Movement_Move Back [um], 198, 156|
+        Basic Mode Controls :]
+      :>
+    Basic Mode :]
+  Indentation :>
+  Phases :[ 
+    :<
+      String := All
+      Value := 0
+    :>
+    :<
+      String := Approach
+      Value := 1
+    :>
+    :<
+      String := Approach&Load
+      Value := 2
+    :>
+    :<
+      String := Loaded Hold
+      Value := 3
+    :>
+    :<
+      String := Unload
+      Value := 4
+    :>
+    :<
+      String := Unloaded Hold
+      Value := 5
+    :>
+    :<
+      String := Move Away
+      Value := 6
+    :>
+  Phases :]
+  Calibration Data :< 
+    Sensor Serial := FT S2000 230414 1
+    Model := FT-MTA03A
+    Tip Type := Spherical
+    Parameter Names :[ 
+      :Reference Stiffness [N/m]|:Tip-Sphere Radius [um]|:Beta|:Epsilon|
+    Parameter Names :]
+    Parameters :[ 
+      :1553.94|:1|:1|:0.75|
+    Parameters :]
+  Calibration Data :>
+  Compliance calibration :< 
+    Model := 
+    Serial := 
+    Configuration := 
+    Axis A := 
+    Axis B := 
+    Compliance fit :[ 
+      
+    Compliance fit :]
+  Compliance calibration :>
+  Comment := 
+2023-11-22, 12:19:48, 0 :>
+
+0	2809	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+// ================================
+2023-11-22, 12:34:03, 1 :< 
+  Type := Indentation
+  System Settings :< 
+    Max drive frequency [Hz] := 1000
+    Max speed [um/s] := 500
+    Max acceleration [um/s^2] := 0
+    SPM Threshold [%] := 40
+    Reference stiffness [N/m] := 1553.94
+    Power save mode := No
+  System Settings :>
+  Indentation :< 
+    Expert Mode := Yes
+    Array Measurement := Yes
+    FindContactExpert :< 
+      Direction := Pos Z-(down)
+      Channel := 0
+      Distance [um] := 25000
+      Move back [um] := 30
+      Speed [um/s] := 150
+      Min Force [uN] := -40
+      Max Force [uN] := 40
+      Filter := 0
+      Sidestep Pos A := 0
+      Sidestep Pos B := 0
+    FindContactExpert :>
+    Indentation Expert :< 
+      Direction := Piezo Z+(up)
+      Control Mode := Displacement controlled
+      Distance [um] := 25000
+      Trigger min [uN] := 0
+      Filter := 1
+      Trigger max [uN] := 0
+      Approach step [um] := 25
+      Approach speed [um/s] := 25
+      Max force [uN] := 2000
+      Max depth [um] := 50
+      End force [uN] := -500
+      Sampling rate [Hz] := 200
+      Load Rate := 25
+      Unload Rate := 25
+      Load ramp time [s] := 2
+      Unload ramp time [s] := 2
+      Loaded hold time [s] := 10
+      End hold time [s] := 0
+      Fast retraction? := Yes
+      Linear ramp portion [%] := 20
+      Zero Force? := Yes
+      Match speeds? := Yes
+      Channel := 0
+    Indentation Expert :>
+    Indentation Array :< 
+      Mode := an area map centered on the sensor position
+      Direction A := Pos X+(right)
+      Number A := 3
+      Point Spacing (A) [um] := 500
+      Direction B := Pos Y+(back)
+      Number B := 3
+      Point Spacing (B) [um] := 500
+      Array Rotation [°] := 0
+    Indentation Array :>
+    Repetition :< 
+      Number A := 1
+      Number B := 1
+      Array Spacing (A) [um] := 10
+      Array Spacing (B) [um] := 10
+      Offset (A) [um] := 0
+      Offset (B) [um] := 0
+    Repetition :>
+    CSM settings :< 
+      Frequency [Hz] := 0
+      Control Mode := Depth controlled
+      Amplitude [um] := 0
+      Amplitude force [uN] := 0
+      Amplitude ratio [%] := 0
+    CSM settings :>
+    Movement :< 
+      Delay := 0.5
+      Speed := 500
+      Scan start range [um] := 10
+      DelayAfterFirstFC := 1
+      Direction C := Pos Z+(up)
+      Move Back [um] := 500
+      Perform Find Contact := Always (tip moves far)
+    Movement :>
+    Variation :< 
+      VaryForceDepth := No
+      VariationDirection := Pos X+(right)
+      From Force := 2000
+      To Force := 2000
+      From Depth := 50
+      To Depth := 50
+      Logarithmic := No
+      VariationConstant := Constant Ramp Time
+    Variation :>
+    Exclude Points :< 
+      Exclude Points :[ 
+        
+      Exclude Points :]
+      Repetition Index := 0
+    Exclude Points :>
+    Basic Mode :[ 
+      :<
+        Basic Mode Controls :[ 
+          :FindContactExpert_Min Force [uN], 6, 12|:FindContactExpert_Max Force [uN], 6, 102|:FindContactExpert_Move back [um], 6, 192|:FindContactExpert_Sidestep Pos A, 54, 12|:FindContactExpert_Sidestep Pos B, 54, 156|
+        Basic Mode Controls :]
+      :>
+      :<
+        Basic Mode Controls :[ 
+          :Indentation Expert_Max depth [um], 12, 12|:Indentation Expert_Load ramp time [s], 60, 12|:Indentation Expert_Unload ramp time [s], 60, 156|:Indentation Expert_Approach speed [um/s], 12, 156|:Indentation Expert_Match speeds?, 108, 12|
+        Basic Mode Controls :]
+      :>
+      :<
+        Basic Mode Controls :[ 
+          :Indentation Array_Mode, 6, 12|:Indentation Array_Direction A, 54, 12|:Indentation Array_Direction B, 54, 156|:Indentation Array_Number A, 102, 12|:Indentation Array_Number B, 102, 156|:Indentation Array_Point Spacing (A) [um], 150, 12|:Indentation Array_Point Spacing (B) [um], 150, 156|:Movement_Perform Find Contact, 198, 12|:Movement_Move Back [um], 198, 156|
+        Basic Mode Controls :]
+      :>
+    Basic Mode :]
+  Indentation :>
+  Phases :[ 
+    :<
+      String := All
+      Value := 0
+    :>
+    :<
+      String := Approach
+      Value := 1
+    :>
+    :<
+      String := Approach&Load
+      Value := 2
+    :>
+    :<
+      String := Loaded Hold
+      Value := 3
+    :>
+    :<
+      String := Unload
+      Value := 4
+    :>
+    :<
+      String := Unloaded Hold
+      Value := 5
+    :>
+    :<
+      String := Move Away
+      Value := 6
+    :>
+  Phases :]
+  Calibration Data :< 
+    Sensor Serial := FT S2000 230414 1
+    Model := FT-MTA03A
+    Tip Type := Spherical
+    Parameter Names :[ 
+      :Reference Stiffness [N/m]|:Tip-Sphere Radius [um]|:Beta|:Epsilon|
+    Parameter Names :]
+    Parameters :[ 
+      :1553.94|:1|:1|:0.75|
+    Parameters :]
+  Calibration Data :>
+  Compliance calibration :< 
+    Model := 
+    Serial := 
+    Configuration := 
+    Axis A := 
+    Axis B := 
+    Compliance fit :[ 
+      
+    Compliance fit :]
+  Compliance calibration :>
+  Comment := 
+2023-11-22, 12:34:03, 1 :>
+
+22472	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+44952	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+67432	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+89912	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+112392	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+134872	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+157352	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+179832	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+
+202312	2810	0	1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2

@@ -1,0 +1,1671 @@
+v2.4.4.5
+FitsFunctions :[ 
+  :<
+    ListData :< 
+      Var := a
+      Type := Fit
+      Name := Max Depth
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Time
+        Vertical := Piezo Z
+        Selected Fit := MinMax
+        Selected Phases :[ 
+          :0|
+        Selected Phases :]
+        Selected Selector := AxisSection
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := 
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := Yes
+      Graph settings :< 
+        H auto? := Yes
+        V auto? := Yes
+        H mirror? := No
+        V mirror? := No
+        H max := 65873.66
+        V max := 0.990571679269
+        H min := 65873.52
+        V min := 0.9758228124
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 100
+      Fitted Axis := Vertical
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := 
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Vertical
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Vertical
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Maximum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := b
+      Type := Fit
+      Name := Contact Point
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Displacement
+        Vertical := Force A
+        Selected Fit := PowerFit
+        Selected Phases :[ 
+          :2|
+        Selected Phases :]
+        Selected Selector := VerticalSection
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := 
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := Yes
+      Graph settings :< 
+        H auto? := Yes
+        V auto? := Yes
+        H mirror? := No
+        V mirror? := No
+        H max := 1
+        V max := 251.010533954
+        H min := 0
+        V min := -75.5966083302
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Absolute
+      Vertical Minimum := 1
+      Vertical Upper RelAbs := Absolute
+      Vertical Maximum := 10
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := 
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := c
+      Type := Fit
+      Name := Max Force
+      Unit := [uN]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Time
+        Vertical := Force A
+        Selected Fit := MinMax
+        Selected Phases :[ 
+          :0|
+        Selected Phases :]
+        Selected Selector := AxisSection
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := 
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 90
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 100
+      Fitted Axis := Vertical
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := 
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Vertical
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Vertical
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Maximum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := d
+      Type := Funct
+      Name := HMax
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Function
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := Linear
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := a-b
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := a-b
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := e
+      Type := Fit
+      Name := Stiffness
+      Unit := [N/m]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := PowerFit
+        Selected Phases :[ 
+          :4|
+        Selected Phases :]
+        Selected Selector := VerticalSection
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := 
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 80
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 50
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 100
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := 
+    Custom :>
+    Linear :< 
+      Fitted Value := Slope
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Slope
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := f
+      Type := Funct
+      Name := Contact Depth
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Function
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := Linear
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := d-param(3)*c/e
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := d-param(3)*c/e
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := g
+      Type := Funct
+      Name := Area
+      Unit := [um^2]
+    ListData :>
+    Hidden :< 
+      FFType := Function
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := Linear
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := area(f)
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := area(f)
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := h
+      Type := Funct
+      Name := Hardness
+      Unit := [MPa]
+    ListData :>
+    Hidden :< 
+      FFType := Function
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := Linear
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := c/g
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := c/g
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := i
+      Type := Funct
+      Name := Reduced Mod.
+      Unit := [MPa]
+    ListData :>
+    Hidden :< 
+      FFType := Function
+      Fit :< 
+        Horizontal := Indent Depth
+        Vertical := Force A
+        Selected Fit := Linear
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 0
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 0
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Horizontal
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := j
+      Type := Fit
+      Name := Pos X
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Time
+        Vertical := Pos X
+        Selected Fit := Median
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Vertical
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := k
+      Type := Fit
+      Name := Pos Y
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Time
+        Vertical := Pos Y
+        Selected Fit := Median
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Vertical
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+  :<
+    ListData :< 
+      Var := l
+      Type := Fit
+      Name := Pos Z
+      Unit := [um]
+    ListData :>
+    Hidden :< 
+      FFType := Fit
+      Fit :< 
+        Horizontal := Time
+        Vertical := Pos Z
+        Selected Fit := Median
+        Selected Phases :[ 
+          
+        Selected Phases :]
+        Selected Selector := SquareAbsRel
+      Fit :>
+      Function :< 
+        Selected Function := Custom
+        Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+      Function :>
+      Available Variables :[ 
+        :a|:b|:c|:d|:e|:f|:g|:h|:i|:j|:k|:l|
+      Available Variables :]
+      Phases :[ 
+        :<
+          String := All
+          Value := 0
+        :>
+        :<
+          String := Approach
+          Value := 1
+        :>
+        :<
+          String := Approach&Load
+          Value := 2
+        :>
+        :<
+          String := Loaded Hold
+          Value := 3
+        :>
+        :<
+          String := Unload
+          Value := 4
+        :>
+        :<
+          String := Unloaded Hold
+          Value := 5
+        :>
+        :<
+          String := Move Away
+          Value := 6
+        :>
+      Phases :]
+      Fit Changed? := No
+      Selector Changed? := No
+      Graph settings :< 
+        H auto? := No
+        V auto? := No
+        H mirror? := No
+        V mirror? := No
+        H max := 0
+        V max := 0
+        H min := 0
+        V min := 0
+      Graph settings :>
+    Hidden :>
+    SquareAbsRel :< 
+      Horizontal RelAbs := Relative
+      Horizontal Minimum := 0
+      Horizontal Maximum := 100
+      Vertical RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Maximum := 100
+    SquareAbsRel :>
+    AxisSection :< 
+      RelAbs := Relative
+      Minimum := 0
+      Maximum := 0
+      Fitted Axis := Horizontal
+    AxisSection :>
+    VerticalSection :< 
+      Vertical Lower RelAbs := Relative
+      Vertical Minimum := 0
+      Vertical Upper RelAbs := Relative
+      Vertical Maximum := 0
+    VerticalSection :>
+    SingleValue :< 
+      RelAbs := Relative
+      Value := 0
+      Selector Axis := Horizontal
+    SingleValue :>
+    Custom :< 
+      Formula := e*sqrt(pi(1))/(2*param(2)*sqrt(g))
+    Custom :>
+    Linear :< 
+      Fitted Value := Vertical Intercept
+    Linear :>
+    Poly2 :< 
+      Fitted Value := C0
+    Poly2 :>
+    Poly3 :< 
+      Fitted Value := C0
+    Poly3 :>
+    Deming :< 
+      Fitted Value := Vertical Intercept
+    Deming :>
+    Mean :< 
+      Direction := Horizontal
+    Mean :>
+    RMS :< 
+      Direction := Horizontal
+    RMS :>
+    Median :< 
+      Direction := Vertical
+    Median :>
+    Interpolate :< 
+      Type := Linear
+    Interpolate :>
+    MinMax :< 
+      Type := Minimum
+    MinMax :>
+    PowerFit :< 
+      Type := Horiz. Intercept
+    PowerFit :>
+    Hysteresis :< 
+      Type := Standard
+    Hysteresis :>
+    NonLinearity :< 
+      Type := Absolute
+    NonLinearity :>
+    Threshold :< 
+      Type := First above
+    Threshold :>
+    NixGaoFit :< 
+      Fitted Value := Vertical Limit
+    NixGaoFit :>
+  :>
+FitsFunctions :]
