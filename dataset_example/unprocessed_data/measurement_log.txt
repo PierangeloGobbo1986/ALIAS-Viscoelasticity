@@ -1,0 +1,330 @@
+System (1639.5197s): Force A configured as inverted.
+System (1639.5197s): Force B configured as inverted.
+System (1639.5397s): Ready.
+System (1822.5397s): Joystick Pos Z: -200 um 
+System (1822.8397s): Joystick Pos Z: -200 um 
+System (1823.1397s): Joystick Pos Z: -200 um 
+System (1823.4397s): Joystick Pos Z: -200 um 
+System (1823.7397s): Joystick Pos Z: -200 um 
+System (1824.0397s): Joystick Pos Z: -200 um 
+System (1824.3397s): Joystick Pos Z: -200 um 
+System (1824.6397s): Joystick Pos Z: -200 um 
+System (1824.9397s): Joystick Pos Z: -200 um 
+System (1825.2397s): Joystick Pos Z: -200 um 
+System (1825.5397s): Joystick Pos Z: -200 um 
+System (1825.8397s): Joystick Pos Z: -200 um 
+System (1826.1397s): Joystick Pos Z: -200 um 
+System (1826.4397s): Joystick Pos Z: -200 um 
+System (1826.7497s): Joystick Pos Z: -200 um 
+System (1827.0497s): Joystick Pos Z: -200 um 
+System (1827.3497s): Joystick Pos Z: -200 um 
+System (1827.6497s): Joystick Pos Z: -200 um 
+System (1827.9497s): Joystick Pos Z: -200 um 
+System (1828.2497s): Joystick Pos Z: -200 um 
+System (1828.5497s): Joystick Pos Z: -200 um 
+System (1828.8497s): Joystick Pos Z: -200 um 
+System (1829.1497s): Joystick Pos Z: -200 um 
+System (1829.4597s): Joystick Pos Z: -200 um 
+System (1829.7497s): Joystick Pos Z: -200 um 
+System (1830.0497s): Joystick Pos Z: -200 um 
+System (1830.3497s): Joystick Pos Z: -200 um 
+System (1830.6497s): Joystick Pos Z: -200 um 
+System (1830.9497s): Joystick Pos Z: -200 um 
+System (1831.2497s): Joystick Pos Z: -200 um 
+System (1831.5697s): Joystick Pos Z: -200 um 
+System (1831.8597s): Joystick Pos Z: -200 um 
+System (1832.1597s): Joystick Pos Z: -200 um 
+System (1832.4597s): Joystick Pos Z: -200 um 
+System (1832.7597s): Joystick Pos Z: -200 um 
+System (1833.0597s): Joystick Pos Z: -200 um 
+System (1833.3597s): Joystick Pos Z: -200 um 
+System (1833.6697s): Joystick Pos Z: -200 um 
+System (1833.9597s): Joystick Pos Z: -200 um 
+System (1834.2597s): Joystick Pos Z: -200 um 
+System (1834.5597s): Joystick Pos Z: -200 um 
+System (1834.8597s): Joystick Pos Z: -200 um 
+System (1835.1597s): Joystick Pos Z: -200 um 
+System (1835.4597s): Joystick Pos Z: -200 um 
+System (1835.7597s): Joystick Pos Z: -200 um 
+System (1836.0597s): Joystick Pos Z: -200 um 
+System (1836.3597s): Joystick Pos Z: -200 um 
+System (1836.6597s): Joystick Pos Z: -200 um 
+System (1836.9597s): Joystick Pos Z: -200 um 
+System (1837.2597s): Joystick Pos Z: -200 um 
+System (1837.5597s): Joystick Pos Z: -200 um 
+System (1837.8597s): Joystick Pos Z: -200 um 
+System (1838.1697s): Joystick Pos Z: -200 um 
+System (1838.4697s): Joystick Pos Z: -200 um 
+System (1838.7697s): Joystick Pos Z: -200 um 
+System (1839.0697s): Joystick Pos Z: -200 um 
+System (1840.9997s): Joystick Pos Z: -200 um 
+System (1841.2997s): Joystick Pos Z: -200 um 
+System (1841.5997s): Joystick Pos Z: -200 um 
+System (1841.8997s): Joystick Pos Z: -200 um 
+System (1842.1997s): Joystick Pos Z: -200 um 
+System (1842.4997s): Joystick Pos Z: -200 um 
+System (1842.7997s): Joystick Pos Z: -200 um 
+System (1843.1097s): Joystick Pos Z: -200 um 
+System (1843.3997s): Joystick Pos Z: -200 um 
+System (1843.7097s): Joystick Pos Z: -200 um 
+System (1843.9997s): Joystick Pos Z: -200 um 
+System (1844.2997s): Joystick Pos Z: -200 um 
+System (1844.6097s): Joystick Pos Z: -200 um 
+System (1844.9097s): Joystick Pos Z: -200 um 
+System (1845.2097s): Joystick Pos Z: -200 um 
+System (1847.4097s): Joystick Pos Z: -200 um 
+System (1847.6997s): Joystick Pos Z: -200 um 
+System (1848.0097s): Joystick Pos Z: -200 um 
+System (1848.2997s): Joystick Pos Z: -200 um 
+System (1848.5997s): Joystick Pos Z: -200 um 
+System (1848.8997s): Joystick Pos Z: -200 um 
+System (1849.1997s): Joystick Pos Z: -200 um 
+System (1849.4997s): Joystick Pos Z: -200 um 
+System (1849.8197s): Joystick Pos Z: -200 um 
+System (1850.1097s): Joystick Pos Z: -200 um 
+System (1850.4097s): Joystick Pos Z: -200 um 
+System (1850.7097s): Joystick Pos Z: -200 um 
+System (1851.0097s): Joystick Pos Z: -200 um 
+System (1851.3097s): Joystick Pos Z: -200 um 
+System (1851.6097s): Joystick Pos Z: -200 um 
+System (1856.6897s): Joystick Pos Z: -200 um 
+System (1856.9897s): Joystick Pos Z: -200 um 
+System (1857.2897s): Joystick Pos Z: -200 um 
+System (1857.5897s): Joystick Pos Z: -200 um 
+System (1857.8897s): Joystick Pos Z: -200 um 
+System (1858.1897s): Joystick Pos Z: -200 um 
+System (1858.4897s): Joystick Pos Z: -200 um 
+System (1858.7897s): Joystick Pos Z: -200 um 
+System (1859.0897s): Joystick Pos Z: -200 um 
+System (1859.3897s): Joystick Pos Z: -200 um 
+System (1859.6897s): Joystick Pos Z: -200 um 
+System (1859.9997s): Joystick Pos Z: -200 um 
+System (1860.2997s): Joystick Pos Z: -200 um 
+System (1860.5997s): Joystick Pos Z: -200 um 
+System (1860.8997s): Joystick Pos Z: -200 um 
+System (1861.1997s): Joystick Pos Z: -200 um 
+System (1861.4997s): Joystick Pos Z: -200 um 
+System (1861.7997s): Joystick Pos Z: -200 um 
+System (1862.0997s): Joystick Pos Z: -200 um 
+System (1862.3997s): Joystick Pos Z: -200 um 
+System (1862.6997s): Joystick Pos Z: -200 um 
+System (1862.9997s): Joystick Pos Z: -200 um 
+System (1863.2997s): Joystick Pos Z: -200 um 
+System (1863.5997s): Joystick Pos Z: -200 um 
+System (1863.8997s): Joystick Pos Z: -200 um 
+System (1864.1997s): Joystick Pos Z: -200 um 
+System (1867.3297s): Forces set to zero.
+System (1868.8297s): Joystick Pos Z: -200 um 
+System (1869.7497s): Joystick Pos Z: -200 um 
+System (1870.5197s): Joystick Pos Z: -200 um 
+System (1871.6797s): Joystick Pos Z: -200 um 
+System (1872.9697s): Joystick Pos Z: -200 um 
+System (1874.1097s): Joystick Pos Z: -200 um 
+System (1879.4597s): Joystick Pos Z: -100 um 
+System (1879.9597s): Joystick Pos Z: -100 um 
+System (1883.5497s): Forces set to zero.
+System (1885.4610s): Finding contact...
+System (1885.6437s): Full distance covered. No contact found.
+System (1885.6710s): Finding contact...
+System (1891.3270s): Force threshold reached. Contact found.
+System (1910.7397s): Forces set to zero.
+System (1955.2997s): Forces set to zero.
+System (1996.5997s): Joystick Pos Z: -60 um 
+System (2102.2297s): Frequency sweep started
+System (2226.3497s): Frequency 1/5
+System (2265.4197s): Frequency 2/5
+System (2277.9297s): Frequency 3/5
+System (2302.8997s): Frequency 4/5
+System (2327.1297s): Frequency 5/5
+System (2327.1297s): Frequency sweep ended
+System (2344.8097s): Joystick Pos Z: 100 um 
+System (2347.4610s): Aborted.
+System (2350.5797s): Joystick Pos Z: 100 um 
+System (2351.7297s): Joystick Pos Z: 100 um 
+System (2352.5197s): Joystick Pos Z: 100 um 
+System (2352.8197s): Joystick Pos Z: 100 um 
+System (2353.1197s): Joystick Pos Z: 100 um 
+System (2353.7597s): Joystick Pos Z: 100 um 
+System (2354.2297s): Joystick Pos Z: 100 um 
+System (2354.5297s): Joystick Pos Z: 100 um 
+System (2354.8197s): Joystick Pos Z: 100 um 
+System (2355.1297s): Joystick Pos Z: 100 um 
+System (2355.4297s): Joystick Pos Z: 100 um 
+System (2355.7297s): Joystick Pos Z: 100 um 
+System (2356.0397s): Joystick Pos Z: 100 um 
+System (2356.3297s): Joystick Pos Z: 100 um 
+System (2356.6297s): Joystick Pos Z: 100 um 
+System (2356.9297s): Joystick Pos Z: 100 um 
+System (2357.9197s): Joystick Pos Z: 100 um 
+System (2358.1697s): Joystick Pos Z: 100 um 
+System (2358.4197s): Joystick Pos Z: 100 um 
+System (2360.1797s): Joystick Pos Y: -100 um 
+System (2360.4697s): Joystick Pos Y: -100 um 
+System (2360.7197s): Joystick Pos Y: -100 um 
+System (2360.9797s): Joystick Pos Y: -100 um 
+System (2361.2397s): Joystick Pos Y: -100 um 
+System (2361.4897s): Joystick Pos Y: -100 um 
+System (2361.7397s): Joystick Pos Y: -100 um 
+System (2361.9897s): Joystick Pos Y: -100 um 
+System (2362.2497s): Joystick Pos Y: -100 um 
+System (2362.4997s): Joystick Pos Y: -100 um 
+System (2362.7597s): Joystick Pos Y: -100 um 
+System (3420.1797s): Joystick Pos Z: 100 um 
+System (3420.4897s): Joystick Pos Z: 100 um 
+System (3420.7797s): Joystick Pos Z: 100 um 
+System (3421.0797s): Joystick Pos Z: 100 um 
+System (3421.3797s): Joystick Pos Z: 100 um 
+System (3421.6797s): Joystick Pos Z: 100 um 
+System (3421.9797s): Joystick Pos Z: 100 um 
+System (3422.2897s): Joystick Pos Z: 100 um 
+System (3422.5897s): Joystick Pos Z: 100 um 
+System (3422.8897s): Joystick Pos Z: 100 um 
+System (3423.1897s): Joystick Pos Z: 100 um 
+System (3423.4897s): Joystick Pos Z: 100 um 
+System (4937.4497s): Joystick Pos Z: -100 um 
+System (4944.4197s): Joystick Pos Z: -100 um 
+System (4944.8197s): Joystick Pos Z: -100 um 
+System (4945.1297s): Joystick Pos Z: -100 um 
+System (4945.3897s): Joystick Pos Z: -100 um 
+System (4945.6497s): Joystick Pos Z: -100 um 
+System (4946.0697s): Joystick Pos Z: -100 um 
+System (4946.6397s): Joystick Pos Z: -100 um 
+System (4946.9997s): Joystick Pos Z: -100 um 
+System (4947.3997s): Joystick Pos Z: -100 um 
+System (4947.7697s): Joystick Pos Z: -100 um 
+System (4948.2397s): Joystick Pos Z: -100 um 
+System (4948.5397s): Joystick Pos Z: -100 um 
+System (4948.7997s): Joystick Pos Z: -100 um 
+System (4949.0597s): Joystick Pos Z: -100 um 
+System (4949.4797s): Joystick Pos Z: -100 um 
+System (4949.8997s): Joystick Pos Z: -100 um 
+System (4950.3697s): Joystick Pos Z: -100 um 
+System (4950.7697s): Joystick Pos Z: -100 um 
+System (4951.2197s): Joystick Pos Z: -100 um 
+System (4951.7697s): Joystick Pos Z: -100 um 
+System (4952.3397s): Joystick Pos Z: -100 um 
+System (4954.4197s): Forces set to zero.
+System (4956.3707s): Finding contact...
+System (4956.5530s): Full distance covered. No contact found.
+System (4956.5807s): Finding contact...
+System (4961.9237s): Force threshold reached. Contact found.
+System (4965.7497s): Forces set to zero.
+System (4985.1797s): Forces set to zero.
+System (4993.9097s): Frequency sweep started
+System (5011.4207s): Aborted.
+System (5011.4297s): Frequency 1/5
+System (5011.4297s): Aborted.
+System (5027.2397s): Joystick Pos Z: 100 um 
+System (5030.4310s): Aborted.
+System (5033.4097s): Joystick Pos Z: 100 um 
+System (5034.3397s): Joystick Pos Z: 100 um 
+System (5035.0697s): Joystick Pos Z: 100 um 
+System (5035.6197s): Joystick Pos Z: 100 um 
+System (5035.9097s): Joystick Pos Z: 100 um 
+System (5036.2097s): Joystick Pos Z: 100 um 
+System (5036.5097s): Joystick Pos Z: 100 um 
+System (5036.8197s): Joystick Pos Z: 100 um 
+System (5037.1097s): Joystick Pos Z: 100 um 
+System (5037.4197s): Joystick Pos Z: 100 um 
+System (5037.7297s): Joystick Pos Z: 100 um 
+System (5038.0297s): Joystick Pos Z: 100 um 
+System (5038.3197s): Joystick Pos Z: 100 um 
+System (5040.3097s): Joystick Pos Z: -100 um 
+System (5040.8297s): Joystick Pos Z: -100 um 
+System (5041.3197s): Joystick Pos Z: -100 um 
+System (5041.8497s): Joystick Pos Z: -100 um 
+System (5042.3397s): Joystick Pos Z: -100 um 
+System (5043.5897s): Joystick Pos Z: 100 um 
+System (5045.2597s): Forces set to zero.
+System (5046.2510s): Finding contact...
+System (5046.4560s): Full distance covered. No contact found.
+System (5046.4810s): Finding contact...
+System (5052.2847s): Force threshold reached. Contact found.
+System (5057.1997s): Forces set to zero.
+System (5079.2597s): Joystick Pos Z: -60 um 
+System (5177.7597s): Frequency sweep started
+System (5301.7997s): Frequency 1/5
+System (5339.1397s): Frequency 2/5
+System (5351.5497s): Frequency 3/5
+System (5376.5197s): Frequency 4/5
+System (5400.7597s): Frequency 5/5
+System (5400.7597s): Frequency sweep ended
+System (5430.6197s): Joystick Pos Z: 100 um 
+System (5434.1307s): Aborted.
+System (5437.5897s): Joystick Pos Z: 100 um 
+System (5438.7997s): Joystick Pos Z: 100 um 
+System (5439.4497s): Joystick Pos Z: 100 um 
+System (5439.7497s): Joystick Pos Z: 100 um 
+System (5440.3397s): Joystick Pos Z: 100 um 
+System (5440.6397s): Joystick Pos Z: 100 um 
+System (5440.9397s): Joystick Pos Z: 100 um 
+System (5441.2397s): Joystick Pos Z: 100 um 
+System (5441.5497s): Joystick Pos Z: 100 um 
+System (5441.8497s): Joystick Pos Z: 100 um 
+System (5442.1597s): Joystick Pos Z: 100 um 
+System (5442.4497s): Joystick Pos Z: 100 um 
+System (5442.7497s): Joystick Pos Z: 100 um 
+System (5443.0497s): Joystick Pos Z: 100 um 
+System (5443.3497s): Joystick Pos Z: 100 um 
+System (5443.6497s): Joystick Pos Z: 100 um 
+System (5443.9497s): Joystick Pos Z: 100 um 
+System (5480.5997s): Joystick Pos Z: 100 um 
+System (5480.8997s): Joystick Pos Z: 100 um 
+System (5481.2197s): Joystick Pos Z: 100 um 
+System (5481.5097s): Joystick Pos Z: 100 um 
+System (5481.8097s): Joystick Pos Z: 100 um 
+System (5482.1097s): Joystick Pos Z: 100 um 
+System (5482.4097s): Joystick Pos Z: 100 um 
+System (5482.7097s): Joystick Pos Z: 100 um 
+System (5483.0097s): Joystick Pos Z: 100 um 
+System (5483.3097s): Joystick Pos Z: 100 um 
+System (5483.6097s): Joystick Pos Z: 100 um 
+System (5483.9197s): Joystick Pos Z: 100 um 
+System (5484.2197s): Joystick Pos Z: 100 um 
+System (13638.0997s): Joystick Pos Z: -100 um 
+System (13638.6397s): Joystick Pos Z: -100 um 
+System (13639.0197s): Joystick Pos Z: -100 um 
+System (13639.3497s): Joystick Pos Z: -100 um 
+System (13639.6697s): Joystick Pos Z: -100 um 
+System (13639.9597s): Joystick Pos Z: -100 um 
+System (13640.2297s): Joystick Pos Z: -100 um 
+System (13640.5297s): Joystick Pos Z: -100 um 
+System (13640.7997s): Joystick Pos Z: -100 um 
+System (13641.0397s): Joystick Pos Z: -100 um 
+System (13641.2997s): Joystick Pos Z: -100 um 
+System (13641.8597s): Joystick Pos Z: -100 um 
+System (13642.3597s): Joystick Pos Z: -100 um 
+System (13642.8597s): Joystick Pos Z: -100 um 
+System (13643.3797s): Joystick Pos Z: -100 um 
+System (13643.8697s): Joystick Pos Z: -100 um 
+System (13644.2697s): Joystick Pos Z: -100 um 
+System (13644.6197s): Joystick Pos Z: -100 um 
+System (13645.1597s): Joystick Pos Z: -100 um 
+System (13645.7597s): Joystick Pos Z: -100 um 
+System (13646.3197s): Joystick Pos Z: -100 um 
+System (13647.0097s): Joystick Pos Z: -100 um 
+System (13647.5797s): Joystick Pos Z: -100 um 
+System (13649.4097s): Forces set to zero.
+System (13650.4610s): Finding contact...
+System (13650.6290s): Full distance covered. No contact found.
+System (13650.6510s): Finding contact...
+System (13654.7920s): Force threshold reached. Contact found.
+System (13657.6797s): Forces set to zero.
+System (13661.4297s): Cyclic test started.
+System (13677.3197s): Cyclic test ended.
+System (13712.4297s): Cyclic test started.
+System (13733.0997s): Cyclic test ended.
+System (13746.2897s): Joystick Pos Z: 100 um 
+System (13746.7997s): Joystick Pos Z: 100 um 
+System (13747.2997s): Joystick Pos Z: 100 um 
+System (13747.8097s): Joystick Pos Z: 100 um 
+System (13748.3297s): Joystick Pos Z: 100 um 
+System (13748.6297s): Joystick Pos Z: 100 um 
+System (13748.9297s): Joystick Pos Z: 100 um 
+System (13749.2297s): Joystick Pos Z: 100 um 
+System (13749.5297s): Joystick Pos Z: 100 um 
+System (13749.8397s): Joystick Pos Z: 100 um 
+System (13750.1297s): Joystick Pos Z: 100 um 
+System (13750.4297s): Joystick Pos Z: 100 um 
+System (13750.7297s): Joystick Pos Z: 100 um 
+System (13751.0397s): Joystick Pos Z: 100 um 
